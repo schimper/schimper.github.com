@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-10-20">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="extent_size" type="long" />
+      <attribute id="1" title="description" type="string" />
+      <attribute id="2" title="jaccard_cluster" type="long" />
+      <attribute id="3" title="dbscan_cluster" type="long" />
+      <attribute id="4" title="louvain_community" type="long" />
+    </attributes>
+    <nodes>
+      <node id="1" label="set()">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-2" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="2" label="{'class:http://purl.org/spar/datacite/Identifier', 'type', 'http://purl.org/spar/datacite/usesIdentifierScheme', 'http://purl.org/spar/literal/hasLiteralValue'}">
+        <attvalues>
+          <attvalue for="0" value="722337" />
+          <attvalue for="1" value="http://purl.org/spar/datacite/Identifier" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="3" label="{'class:http://purl.org/spar/datacite/Identifier', 'http://purl.org/spar/literal/hasLiteralValue', 'type', 'class:http://purl.org/spar/datacite/PersonalIdentifier', 'http://purl.org/spar/datacite/usesIdentifierScheme'}">
+        <attvalues>
+          <attvalue for="0" value="3884672" />
+          <attvalue for="1" value="http://purl.org/spar/datacite/PersonalIdentifier http://purl.org/spar/datacite/Identifier" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="4" label="{'class:http://purl.org/spar/datacite/Identifier', 'http://purl.org/spar/literal/hasLiteralValue', 'type', 'http://purl.org/spar/datacite/usesIdentifierScheme', 'class:http://purl.org/spar/datacite/ResourceIdentifier'}">
+        <attvalues>
+          <attvalue for="0" value="14373845" />
+          <attvalue for="1" value="http://purl.org/spar/datacite/ResourceIdentifier http://purl.org/spar/datacite/Identifier" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="5" label="{'class:Signature', 'signatureDblpName', 'class:EditorSignature', 'signatureOrdinal', 'signaturePublication', 'type', 'signatureCreator'}">
+        <attvalues>
+          <attvalue for="0" value="132948" />
+          <attvalue for="1" value="Signature EditorSignature" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="6" label="{'primaryCreatorName', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://purl.org/spar/datacite/hasIdentifier', 'creatorName', 'class:Creator', 'class:Person', 'type'}">
+        <attvalues>
+          <attvalue for="0" value="3365477" />
+          <attvalue for="1" value="Person Creator" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="-1" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="7" label="{'class:Signature', 'signatureDblpName', 'class:AuthorSignature', 'signatureOrdinal', 'signaturePublication', 'type', 'signatureCreator'}">
+        <attvalues>
+          <attvalue for="0" value="18956662" />
+          <attvalue for="1" value="AuthorSignature Signature" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="8" label="{'class:Signature', 'signatureOrcid', 'type', 'signaturePublication', 'signatureDblpName', 'signatureOrdinal', 'class:AuthorSignature', 'signatureCreator'}">
+        <attvalues>
+          <attvalue for="0" value="5715077" />
+          <attvalue for="1" value="AuthorSignature Signature" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="9" label="{'title', 'primaryDocumentPage', 'documentPage', 'type', 'bibtexType', 'listedOnTocPage', 'authoredBy', 'numberOfCreators', 'publishedIn', 'publishedInStream', 'hasSignature', 'http://www.w3.org/2000/01/rdf-schema#label', 'publishedInJournal', 'publishedInJournalVolume', 'class:Publication', 'class:Informal', 'yearOfPublication', 'http://purl.org/spar/datacite/hasIdentifier', 'createdBy'}">
+        <attvalues>
+          <attvalue for="0" value="407258" />
+          <attvalue for="1" value="Publication Informal" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+        </attvalues>
+      </node>
+      <node id="10" label="{'title', 'type', 'bibtexType', 'listedOnTocPage', 'authoredBy', 'numberOfCreators', 'publishedIn', 'publishedInBook', 'publishedInStream', 'hasSignature', 'yearOfEvent', 'http://www.w3.org/2000/01/rdf-schema#label', 'class:Inproceedings', 'publishedAsPartOf', 'class:Publication', 'yearOfPublication', 'http://purl.org/spar/datacite/hasIdentifier', 'pagination', 'createdBy'}">
+        <attvalues>
+          <attvalue for="0" value="129870" />
+          <attvalue for="1" value="Publication Inproceedings" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="4" />
+        </attvalues>
+      </node>
+      <node id="11" label="{'title', 'primaryDocumentPage', 'documentPage', 'type', 'bibtexType', 'listedOnTocPage', 'authoredBy', 'numberOfCreators', 'publishedIn', 'publishedInBook', 'publishedInStream', 'hasSignature', 'yearOfEvent', 'http://www.w3.org/2000/01/rdf-schema#label', 'class:Inproceedings', 'publishedAsPartOf', 'class:Publication', 'yearOfPublication', 'http://purl.org/spar/datacite/hasIdentifier', 'createdBy'}">
+        <attvalues>
+          <attvalue for="0" value="110719" />
+          <attvalue for="1" value="Publication Inproceedings" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="4" />
+        </attvalues>
+      </node>
+      <node id="12" label="{'title', 'primaryDocumentPage', 'documentPage', 'type', 'bibtexType', 'listedOnTocPage', 'authoredBy', 'numberOfCreators', 'publishedIn', 'publishedInBook', 'publishedInStream', 'hasSignature', 'yearOfEvent', 'http://www.w3.org/2000/01/rdf-schema#label', 'class:Inproceedings', 'publishedAsPartOf', 'class:Publication', 'yearOfPublication', 'http://purl.org/spar/datacite/hasIdentifier', 'pagination', 'createdBy'}">
+        <attvalues>
+          <attvalue for="0" value="252676" />
+          <attvalue for="1" value="Publication Inproceedings" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="4" />
+        </attvalues>
+      </node>
+      <node id="13" label="{'http://www.w3.org/2002/07/owl#sameAs', 'title', 'primaryDocumentPage', 'documentPage', 'doi', 'type', 'bibtexType', 'listedOnTocPage', 'authoredBy', 'numberOfCreators', 'publishedIn', 'publishedInStream', 'hasSignature', 'http://www.w3.org/2000/01/rdf-schema#label', 'publishedInJournal', 'publishedInJournalVolume', 'class:Publication', 'class:Informal', 'yearOfPublication', 'http://purl.org/spar/datacite/hasIdentifier', 'createdBy'}">
+        <attvalues>
+          <attvalue for="0" value="253781" />
+          <attvalue for="1" value="Publication Informal" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+        </attvalues>
+      </node>
+      <node id="14" label="{'class:Article', 'http://www.w3.org/2002/07/owl#sameAs', 'title', 'primaryDocumentPage', 'documentPage', 'doi', 'type', 'bibtexType', 'listedOnTocPage', 'authoredBy', 'numberOfCreators', 'publishedIn', 'publishedInStream', 'hasSignature', 'http://www.w3.org/2000/01/rdf-schema#label', 'publishedInJournal', 'publishedInJournalVolume', 'class:Publication', 'yearOfPublication', 'http://purl.org/spar/datacite/hasIdentifier', 'pagination', 'createdBy'}">
+        <attvalues>
+          <attvalue for="0" value="405266" />
+          <attvalue for="1" value="Publication Article" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="3" />
+        </attvalues>
+      </node>
+      <node id="15" label="{'http://www.w3.org/2002/07/owl#sameAs', 'title', 'primaryDocumentPage', 'documentPage', 'doi', 'type', 'bibtexType', 'listedOnTocPage', 'authoredBy', 'numberOfCreators', 'publishedIn', 'publishedInBook', 'publishedInStream', 'hasSignature', 'yearOfEvent', 'http://www.w3.org/2000/01/rdf-schema#label', 'class:Inproceedings', 'publishedAsPartOf', 'class:Publication', 'yearOfPublication', 'http://purl.org/spar/datacite/hasIdentifier', 'pagination', 'createdBy'}">
+        <attvalues>
+          <attvalue for="0" value="2843651" />
+          <attvalue for="1" value="Publication Inproceedings" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="4" />
+        </attvalues>
+      </node>
+      <node id="16" label="{'class:Article', 'http://www.w3.org/2002/07/owl#sameAs', 'title', 'primaryDocumentPage', 'documentPage', 'wikidata', 'doi', 'type', 'bibtexType', 'listedOnTocPage', 'authoredBy', 'numberOfCreators', 'publishedIn', 'publishedInStream', 'hasSignature', 'http://www.w3.org/2000/01/rdf-schema#label', 'publishedInJournal', 'publishedInJournalVolume', 'class:Publication', 'yearOfPublication', 'http://purl.org/spar/datacite/hasIdentifier', 'pagination', 'createdBy'}">
+        <attvalues>
+          <attvalue for="0" value="87995" />
+          <attvalue for="1" value="Publication Article" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="3" />
+        </attvalues>
+      </node>
+      <node id="17" label="{'class:Article', 'http://www.w3.org/2002/07/owl#sameAs', 'title', 'primaryDocumentPage', 'documentPage', 'doi', 'type', 'bibtexType', 'listedOnTocPage', 'authoredBy', 'publishedInJournalVolumeIssue', 'numberOfCreators', 'publishedIn', 'publishedInStream', 'hasSignature', 'http://www.w3.org/2000/01/rdf-schema#label', 'publishedInJournal', 'publishedInJournalVolume', 'class:Publication', 'yearOfPublication', 'http://purl.org/spar/datacite/hasIdentifier', 'pagination', 'createdBy'}">
+        <attvalues>
+          <attvalue for="0" value="1628455" />
+          <attvalue for="1" value="Publication Article" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="3" />
+        </attvalues>
+      </node>
+      <node id="18" label="{'class:Article', 'http://www.w3.org/2002/07/owl#sameAs', 'title', 'primaryDocumentPage', 'documentPage', 'wikidata', 'doi', 'type', 'bibtexType', 'listedOnTocPage', 'authoredBy', 'publishedInJournalVolumeIssue', 'numberOfCreators', 'publishedIn', 'publishedInStream', 'hasSignature', 'http://www.w3.org/2000/01/rdf-schema#label', 'publishedInJournal', 'publishedInJournalVolume', 'class:Publication', 'yearOfPublication', 'http://purl.org/spar/datacite/hasIdentifier', 'pagination', 'createdBy'}">
+        <attvalues>
+          <attvalue for="0" value="354894" />
+          <attvalue for="1" value="Publication Article" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="3" />
+        </attvalues>
+      </node>
+      <node id="19" label="{'class:Article', 'http://www.w3.org/2002/07/owl#sameAs', 'title', 'primaryDocumentPage', 'documentPage', 'doi', 'type', 'bibtexType', 'listedOnTocPage', 'authoredBy', 'publishedInJournalVolumeIssue', 'numberOfCreators', 'publishedIn', 'publishedInStream', 'hasSignature', 'http://www.w3.org/2000/01/rdf-schema#label', 'publishedInJournal', 'publishedInJournalVolume', 'class:Publication', 'monthOfPublication', 'yearOfPublication', 'http://purl.org/spar/datacite/hasIdentifier', 'pagination', 'createdBy'}">
+        <attvalues>
+          <attvalue for="0" value="195121" />
+          <attvalue for="1" value="Publication Article" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="3" />
+        </attvalues>
+      </node>
+      <node id="20" label="{'http://www.w3.org/2002/07/owl#sameAs', 'title', 'primaryDocumentPage', 'documentPage', 'wikidata', 'doi', 'type', 'bibtexType', 'listedOnTocPage', 'authoredBy', 'numberOfCreators', 'publishedIn', 'publishedInBook', 'hasSignature', 'publishedInStream', 'yearOfEvent', 'http://www.w3.org/2000/01/rdf-schema#label', 'class:Inproceedings', 'publishedAsPartOf', 'class:Publication', 'yearOfPublication', 'http://purl.org/spar/datacite/hasIdentifier', 'pagination', 'createdBy'}">
+        <attvalues>
+          <attvalue for="0" value="119227" />
+          <attvalue for="1" value="Publication Inproceedings" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="4" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="1" target="2" id="0" />
+      <edge source="1" target="5" id="1" />
+      <edge source="1" target="6" id="2" />
+      <edge source="1" target="7" id="3" />
+      <edge source="1" target="9" id="4" />
+      <edge source="1" target="10" id="5" />
+      <edge source="1" target="11" id="6" />
+      <edge source="1" target="14" id="7" />
+      <edge source="2" target="3" id="8" />
+      <edge source="2" target="4" id="9" />
+      <edge source="7" target="8" id="10" />
+      <edge source="9" target="13" id="11" />
+      <edge source="10" target="12" id="12" />
+      <edge source="11" target="12" id="13" />
+      <edge source="12" target="15" id="14" />
+      <edge source="14" target="16" id="15" />
+      <edge source="14" target="17" id="16" />
+      <edge source="15" target="20" id="17" />
+      <edge source="16" target="18" id="18" />
+      <edge source="17" target="18" id="19" />
+      <edge source="17" target="19" id="20" />
+    </edges>
+  </graph>
+</gexf>

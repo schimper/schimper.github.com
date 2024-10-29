@@ -1,0 +1,554 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-07-26">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="extent_size" type="long" />
+      <attribute id="1" title="description" type="string" />
+      <attribute id="2" title="jaccard_cluster" type="long" />
+      <attribute id="3" title="louvain_community" type="long" />
+    </attributes>
+    <nodes>
+      <node id="1" label="set()">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="2" label="{'http://www.w3.org/2002/07/owl#sameAs'}">
+        <attvalues>
+          <attvalue for="0" value="4384818" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="3" label="{'http://www.w3.org/2004/02/skos/core#prefLabel', 'type', 'http://schema.org/name', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="749206" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="4" label="{'type', 'http://schema.org/version', 'http://schema.org/about', 'http://schema.org/dateModified'}">
+        <attvalues>
+          <attvalue for="0" value="114272865" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="5" label="{'http://www.w3.org/2000/01/rdf-schema#label', 'P2671', 'http://www.wikidata.org/prop/direct-normalized/P2671', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'type', 'http://schema.org/name'}">
+        <attvalues>
+          <attvalue for="0" value="317291" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="6" label="{'http://schema.org/name', 'http://schema.org/description', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'type', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="5117653" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="7" label="{'http://www.w3.org/2000/01/rdf-schema#label', 'P971', 'http://schema.org/description', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'type', 'P31', 'http://schema.org/name'}">
+        <attvalues>
+          <attvalue for="0" value="660003" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="8" label="{'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'P301', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'type', 'P31', 'http://schema.org/name'}">
+        <attvalues>
+          <attvalue for="0" value="229581" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="9" label="{'http://schema.org/name', 'P971', 'http://schema.org/description', 'type', 'P4224', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="423068" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="10" label="{'http://schema.org/name', 'http://schema.org/description', 'P301', 'type', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P373', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="304381" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="11" label="{'http://schema.org/name', 'P971', 'http://schema.org/description', 'type', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P373', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="283448" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="12" label="{'http://schema.org/name', 'http://schema.org/description', 'type', 'P106', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://www.wikidata.org/prop/direct-normalized/P496', 'P496', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="292963" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="13" label="{'P625', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P1566', 'http://schema.org/description', 'P2326', 'P17', 'P1566', 'type', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="231193" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="14" label="{'http://schema.org/name', 'P131', 'http://schema.org/description', 'P17', 'P421', 'type', 'P442', 'P1448', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="687699" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="15" label="{'P625', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P1566', 'http://schema.org/description', 'P131', 'P17', 'P1566', 'type', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="247850" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="16" label="{'P625', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P1566', 'http://schema.org/description', 'P2326', 'P17', 'P1566', 'type', 'P131', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="761233" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="17" label="{'P793', 'http://schema.org/name', 'http://schema.org/description', 'P17', 'type', 'P1476', 'P1246', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P2093', 'P127', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="263174" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="18" label="{'P407', 'http://schema.org/name', 'type', 'P1476', 'P2093', 'P577', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P6769', 'P1433', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="259574" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="19" label="{'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'P3083', 'http://schema.org/description', 'type', 'P6257', 'P6258', 'P528', 'P6259', 'P59', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="1308642" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="20" label="{'P625', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P1566', 'http://schema.org/description', 'P2326', 'P17', 'P1566', 'type', 'P131', 'P2044', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="235018" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="21" label="{'P625', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P1566', 'http://schema.org/description', 'P590', 'P17', 'P1566', 'type', 'P131', 'http://www.wikidata.org/prop/direct-normalized/P590', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="364411" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="22" label="{'P407', 'http://schema.org/name', 'http://schema.org/description', 'type', 'P1476', 'P2093', 'P577', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P6769', 'P1433', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="1430019" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="23" label="{'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'P3083', 'http://schema.org/description', 'type', 'P6257', 'P6258', 'P528', 'P6259', 'P1215', 'P59', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="840789" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="24" label="{'http://www.wikidata.org/prop/direct-normalized/P698', 'http://schema.org/name', 'P478', 'http://schema.org/description', 'type', 'P1476', 'P698', 'P577', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P2093', 'P304', 'P1433', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="346066" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="25" label="{'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'P3083', 'P2216', 'http://schema.org/description', 'type', 'P6257', 'P6258', 'P528', 'P6259', 'P1215', 'P59', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="319447" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="26" label="{'P407', 'http://www.wikidata.org/prop/direct-normalized/P698', 'http://schema.org/name', 'P478', 'http://schema.org/description', 'type', 'P698', 'P577', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P2093', 'P304', 'P1433', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="361512" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="27" label="{'http://www.wikidata.org/prop/direct-normalized/P356', 'http://schema.org/name', 'P478', 'http://schema.org/description', 'type', 'P1476', 'P2093', 'P577', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P356', 'P304', 'P1433', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="756437" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="28" label="{'http://www.wikidata.org/prop/direct-normalized/P356', 'P407', 'http://schema.org/name', 'http://schema.org/description', 'P356', 'type', 'P1476', 'P2093', 'P577', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P6769', 'P1433', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="745151" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="29" label="{'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'P3083', 'P2216', 'http://schema.org/description', 'type', 'P6257', 'P1090', 'P6258', 'P528', 'P6259', 'P1215', 'P59', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="499303" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="30" label="{'http://www.wikidata.org/prop/direct-normalized/P698', 'http://schema.org/name', 'P478', 'http://schema.org/description', 'type', 'P1476', 'P698', 'P577', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P2093', 'P304', 'P1433', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label'}">
+        <attvalues>
+          <attvalue for="0" value="2479658" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="31" label="{'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P698', 'P921', 'P407', 'P304', 'P31', 'http://schema.org/name', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'type', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P2093', 'P1433', 'P577'}">
+        <attvalues>
+          <attvalue for="0" value="340276" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="32" label="{'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P698', 'P407', 'P304', 'P31', 'http://schema.org/name', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'type', 'P1476', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P2093', 'P1433', 'P577'}">
+        <attvalues>
+          <attvalue for="0" value="625425" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="33" label="{'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P698', 'P921', 'P304', 'P31', 'http://schema.org/name', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'type', 'P1476', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P2093', 'P1433', 'P577'}">
+        <attvalues>
+          <attvalue for="0" value="1225394" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="34" label="{'P6257', 'P10751', 'P2214', 'P528', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/name', 'P31', 'P6259', 'P3083', 'http://schema.org/description', 'type', 'P10752', 'P6258', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P1215', 'P59'}">
+        <attvalues>
+          <attvalue for="0" value="285347" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="35" label="{'P351', 'P703', 'P688', 'P644', 'P2393', 'http://www.w3.org/2004/02/skos/core#altLabel', 'http://www.wikidata.org/prop/direct-normalized/P351', 'P2548', 'http://www.w3.org/2000/01/rdf-schema#label', 'P279', 'P31', 'http://schema.org/name', 'http://schema.org/description', 'type', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P645'}">
+        <attvalues>
+          <attvalue for="0" value="399047" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="36" label="{'P478', 'P921', 'P304', 'P31', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P356', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'P356', 'type', 'P1476', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P2093', 'P1433', 'P577'}">
+        <attvalues>
+          <attvalue for="0" value="386421" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="37" label="{'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P698', 'P921', 'P407', 'P304', 'P31', 'http://schema.org/name', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'type', 'P1476', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P2093', 'P1433', 'P577'}">
+        <attvalues>
+          <attvalue for="0" value="545414" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="38" label="{'P6257', 'P10751', 'P2214', 'P528', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/name', 'P31', 'P6259', 'P2583', 'P3083', 'http://schema.org/description', 'type', 'P10752', 'P6258', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P1215', 'P59'}">
+        <attvalues>
+          <attvalue for="0" value="587083" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="39" label="{'P478', 'P407', 'P304', 'P31', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P356', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'P356', 'type', 'P1476', 'P953', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P2093', 'P1433', 'P577'}">
+        <attvalues>
+          <attvalue for="0" value="297640" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="40" label="{'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P698', 'P304', 'P31', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P356', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'P356', 'type', 'P1476', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P2093', 'P1433', 'P577'}">
+        <attvalues>
+          <attvalue for="0" value="1964065" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="41" label="{'P235', 'P2067', 'http://www.wikidata.org/prop/direct-normalized/P662', 'P11089', 'P662', 'P31', 'http://schema.org/name', 'P279', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'P8494', 'type', 'P233', 'P274', 'P3117', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P234', 'P231'}">
+        <attvalues>
+          <attvalue for="0" value="480424" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="42" label="{'P2860', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P698', 'P304', 'P31', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P356', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'P356', 'type', 'P1476', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P2093', 'P1433', 'P577'}">
+        <attvalues>
+          <attvalue for="0" value="598635" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="43" label="{'P6257', 'P10751', 'P2214', 'P528', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/name', 'P31', 'P6259', 'P2583', 'P3083', 'P2216', 'http://schema.org/description', 'type', 'P10752', 'P6258', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P1215', 'P59'}">
+        <attvalues>
+          <attvalue for="0" value="1172791" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="44" label="{'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P698', 'P304', 'P31', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P356', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'P356', 'type', 'P1476', 'P433', 'P1433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P2093', 'P50', 'P577'}">
+        <attvalues>
+          <attvalue for="0" value="685790" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="45" label="{'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P698', 'P407', 'P304', 'P31', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P356', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'P356', 'type', 'P1476', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P2093', 'P1433', 'P577'}">
+        <attvalues>
+          <attvalue for="0" value="930240" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="46" label="{'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P698', 'P921', 'P304', 'P31', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P356', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'P356', 'type', 'P1476', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P2093', 'P1433', 'P577'}">
+        <attvalues>
+          <attvalue for="0" value="1275776" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="47" label="{'P2860', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P698', 'P304', 'P31', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P356', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'type', 'P1476', 'P2093', 'P433', 'P1433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P356', 'P50', 'P577'}">
+        <attvalues>
+          <attvalue for="0" value="292501" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="48" label="{'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P698', 'P407', 'P304', 'P31', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P356', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'type', 'P1476', 'P2093', 'P577', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P356', 'P1433', 'P921'}">
+        <attvalues>
+          <attvalue for="0" value="684095" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="49" label="{'P2860', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P698', 'P407', 'P304', 'P31', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P356', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'type', 'P1476', 'P2093', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P356', 'P1433', 'P577'}">
+        <attvalues>
+          <attvalue for="0" value="296766" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="50" label="{'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P698', 'P304', 'P31', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P356', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'type', 'P1476', 'P2093', 'P577', 'P433', 'P1433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P356', 'P50', 'P921'}">
+        <attvalues>
+          <attvalue for="0" value="623370" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="51" label="{'P2860', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P698', 'P304', 'P31', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P356', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'type', 'P1476', 'P2093', 'P577', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P356', 'P1433', 'P921'}">
+        <attvalues>
+          <attvalue for="0" value="539118" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="52" label="{'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P698', 'P407', 'P304', 'P31', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P356', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'type', 'P1476', 'P2093', 'P433', 'P1433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P356', 'P50', 'P577'}">
+        <attvalues>
+          <attvalue for="0" value="303397" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="53" label="{'P2860', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P698', 'P304', 'P31', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P356', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'type', 'P1476', 'P2093', 'P577', 'P433', 'P1433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P356', 'P50', 'P921'}">
+        <attvalues>
+          <attvalue for="0" value="351367" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="54" label="{'P6257', 'P10751', 'P7015', 'P2214', 'P6879', 'P31', 'http://schema.org/name', 'P528', 'http://www.w3.org/2000/01/rdf-schema#label', 'P6259', 'P2583', 'P3083', 'P2216', 'http://schema.org/description', 'type', 'P10752', 'P6258', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P1215', 'P59'}">
+        <attvalues>
+          <attvalue for="0" value="281355" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="55" label="{'P2860', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P698', 'P407', 'P304', 'P31', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P356', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'type', 'P1476', 'P2093', 'P577', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P356', 'P1433', 'P921'}">
+        <attvalues>
+          <attvalue for="0" value="273538" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="56" label="{'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P698', 'P407', 'P304', 'P31', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P356', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'type', 'P1476', 'P2093', 'P577', 'P433', 'P1433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P356', 'P50', 'P921'}">
+        <attvalues>
+          <attvalue for="0" value="328945" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="57" label="{'P2860', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P698', 'P407', 'P304', 'P31', 'http://schema.org/name', 'http://www.wikidata.org/prop/direct-normalized/P356', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://schema.org/description', 'type', 'P1476', 'P2093', 'P953', 'P577', 'P433', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'P356', 'P1433', 'P921'}">
+        <attvalues>
+          <attvalue for="0" value="325275" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="1" target="2" id="0" />
+      <edge source="1" target="3" id="1" />
+      <edge source="1" target="4" id="2" />
+      <edge source="3" target="5" id="3" />
+      <edge source="3" target="6" id="4" />
+      <edge source="3" target="18" id="5" />
+      <edge source="6" target="7" id="6" />
+      <edge source="6" target="8" id="7" />
+      <edge source="6" target="12" id="8" />
+      <edge source="6" target="13" id="9" />
+      <edge source="6" target="14" id="10" />
+      <edge source="6" target="15" id="11" />
+      <edge source="6" target="17" id="12" />
+      <edge source="6" target="19" id="13" />
+      <edge source="6" target="22" id="14" />
+      <edge source="6" target="24" id="15" />
+      <edge source="6" target="26" id="16" />
+      <edge source="6" target="27" id="17" />
+      <edge source="6" target="35" id="18" />
+      <edge source="6" target="41" id="19" />
+      <edge source="7" target="9" id="20" />
+      <edge source="7" target="11" id="21" />
+      <edge source="8" target="10" id="22" />
+      <edge source="13" target="16" id="23" />
+      <edge source="15" target="16" id="24" />
+      <edge source="15" target="21" id="25" />
+      <edge source="16" target="20" id="26" />
+      <edge source="18" target="22" id="27" />
+      <edge source="19" target="23" id="28" />
+      <edge source="22" target="28" id="29" />
+      <edge source="23" target="25" id="30" />
+      <edge source="23" target="34" id="31" />
+      <edge source="24" target="30" id="32" />
+      <edge source="25" target="29" id="33" />
+      <edge source="25" target="43" id="34" />
+      <edge source="26" target="31" id="35" />
+      <edge source="26" target="32" id="36" />
+      <edge source="27" target="36" id="37" />
+      <edge source="27" target="39" id="38" />
+      <edge source="27" target="40" id="39" />
+      <edge source="30" target="32" id="40" />
+      <edge source="30" target="33" id="41" />
+      <edge source="30" target="40" id="42" />
+      <edge source="31" target="37" id="43" />
+      <edge source="32" target="37" id="44" />
+      <edge source="32" target="45" id="45" />
+      <edge source="33" target="37" id="46" />
+      <edge source="33" target="46" id="47" />
+      <edge source="34" target="38" id="48" />
+      <edge source="36" target="46" id="49" />
+      <edge source="37" target="48" id="50" />
+      <edge source="38" target="43" id="51" />
+      <edge source="39" target="57" id="52" />
+      <edge source="40" target="42" id="53" />
+      <edge source="40" target="44" id="54" />
+      <edge source="40" target="45" id="55" />
+      <edge source="40" target="46" id="56" />
+      <edge source="42" target="47" id="57" />
+      <edge source="42" target="49" id="58" />
+      <edge source="42" target="51" id="59" />
+      <edge source="43" target="54" id="60" />
+      <edge source="44" target="47" id="61" />
+      <edge source="44" target="50" id="62" />
+      <edge source="44" target="52" id="63" />
+      <edge source="45" target="48" id="64" />
+      <edge source="45" target="49" id="65" />
+      <edge source="45" target="52" id="66" />
+      <edge source="46" target="48" id="67" />
+      <edge source="46" target="50" id="68" />
+      <edge source="46" target="51" id="69" />
+      <edge source="47" target="53" id="70" />
+      <edge source="48" target="55" id="71" />
+      <edge source="48" target="56" id="72" />
+      <edge source="49" target="55" id="73" />
+      <edge source="50" target="53" id="74" />
+      <edge source="50" target="56" id="75" />
+      <edge source="51" target="53" id="76" />
+      <edge source="51" target="55" id="77" />
+      <edge source="52" target="56" id="78" />
+      <edge source="55" target="57" id="79" />
+    </edges>
+  </graph>
+</gexf>

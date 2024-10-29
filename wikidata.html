@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>wikidata | Knowledge Base Explorer</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_observablehq/theme-parchment.css">
+<link rel="preload" as="style" href="./_observablehq/stdlib/inputs.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_observablehq/theme-parchment.css">
+<link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.css">
+<link rel="modulepreload" href="./_observablehq/client.js">
+<link rel="modulepreload" href="./_observablehq/runtime.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.js">
+<link rel="modulepreload" href="./_npm/gexf@0.2.6/_esm.js">
+<link rel="modulepreload" href="./_node/d3@7.9.0/index.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/_esm.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/_esm.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/inputs.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/_esm.js">
+<link rel="modulepreload" href="./_npm/xmldom@0.1.31/_esm.js">
+<link rel="modulepreload" href="./_node/d3-array@3.2.4/index.js">
+<link rel="modulepreload" href="./_node/d3-axis@3.0.0/index.js">
+<link rel="modulepreload" href="./_node/d3-brush@3.0.0/index.js">
+<link rel="modulepreload" href="./_node/d3-chord@3.0.1/index.js">
+<link rel="modulepreload" href="./_node/d3-color@3.1.0/index.js">
+<link rel="modulepreload" href="./_node/d3-contour@4.0.2/index.js">
+<link rel="modulepreload" href="./_node/d3-delaunay@6.0.4/index.js">
+<link rel="modulepreload" href="./_node/d3-dispatch@3.0.1/index.js">
+<link rel="modulepreload" href="./_node/d3-drag@3.0.0/index.js">
+<link rel="modulepreload" href="./_node/d3-dsv@3.0.1/index.js">
+<link rel="modulepreload" href="./_node/d3-ease@3.0.1/index.js">
+<link rel="modulepreload" href="./_node/d3-fetch@3.0.1/index.js">
+<link rel="modulepreload" href="./_node/d3-force@3.0.0/index.js">
+<link rel="modulepreload" href="./_node/d3-format@3.1.0/index.js">
+<link rel="modulepreload" href="./_node/d3-geo@3.1.1/index.js">
+<link rel="modulepreload" href="./_node/d3-hierarchy@3.1.2/index.js">
+<link rel="modulepreload" href="./_node/d3-interpolate@3.0.1/index.js">
+<link rel="modulepreload" href="./_node/d3-path@3.1.0/index.js">
+<link rel="modulepreload" href="./_node/d3-polygon@3.0.1/index.js">
+<link rel="modulepreload" href="./_node/d3-quadtree@3.0.1/index.js">
+<link rel="modulepreload" href="./_node/d3-random@3.0.1/index.js">
+<link rel="modulepreload" href="./_node/d3-scale@4.0.2/index.js">
+<link rel="modulepreload" href="./_node/d3-scale-chromatic@3.1.0/index.js">
+<link rel="modulepreload" href="./_node/d3-selection@3.0.0/index.js">
+<link rel="modulepreload" href="./_node/d3-shape@3.2.0/index.js">
+<link rel="modulepreload" href="./_node/d3-time@3.1.0/index.js">
+<link rel="modulepreload" href="./_node/d3-time-format@4.1.0/index.js">
+<link rel="modulepreload" href="./_node/d3-timer@3.0.1/index.js">
+<link rel="modulepreload" href="./_node/d3-transition@3.0.1/index.js">
+<link rel="modulepreload" href="./_node/d3-zoom@3.0.0/index.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.4/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_node/internmap@2.0.3/index.js">
+<link rel="modulepreload" href="./_node/delaunator@5.0.1/index.js">
+<link rel="modulepreload" href="./_npm/internmap@2.0.3/_esm.js">
+<link rel="modulepreload" href="./_npm/delaunator@5.0.1/_esm.js">
+<link rel="modulepreload" href="./_node/robust-predicates@3.0.2/index.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/_esm.js">
+<link rel="icon" href="./_file/observable.1af93621.png" type="image/png" sizes="32x32">
+<script type="module">
+
+import {define} from "./_observablehq/client.js";
+import {registerFile} from "./_observablehq/stdlib.js";
+
+registerFile("./data/latest-truthy/descriptions.json", {"name":"./data/latest-truthy/descriptions.json","mimeType":"application/json","path":"./_file/data/latest-truthy/descriptions.32b9053e.json","lastModified":1722940628475});
+registerFile("./data/latest-truthy/info.json", {"name":"./data/latest-truthy/info.json","mimeType":"application/json","path":"./_file/data/latest-truthy/info.437e40e2.json","lastModified":1722940628490});
+registerFile("./data/latest-truthy/lattice.gexf", {"name":"./data/latest-truthy/lattice.gexf","path":"./_file/data/latest-truthy/lattice.d19828fa.gexf","lastModified":1722940628491});
+
+define({id: "e8d17b6e", inputs: ["html","display"], body: async (html,display) => {
+display(await(
+html.fragment`<style>
+  .observablehq {
+  max-width: calc(100% - 1rem) !important;
+  margin: auto; /* Center the content */
+  }
+  .prop-class {
+  color: #9400d3 !important;
+  }
+</style>`
+))
+}});
+
+define({id: "c1c8e26a", inputs: ["FileAttachment"], outputs: ["stats","gexfText","descriptions"], body: async (FileAttachment) => {
+const stats = FileAttachment("./data/latest-truthy/info.json").json()
+const gexfText = await FileAttachment("./data/latest-truthy/lattice.gexf").text();
+const descriptions = await FileAttachment("./data/latest-truthy/descriptions.json").json()
+return {stats,gexfText,descriptions};
+}});
+
+define({id: "f7f87d7e", inputs: ["html","stats","display"], body: async (html,stats,display) => {
+display(await(
+html.fragment`<div class="grid grid-cols-3">
+  <a class="card" style="color: inherit;">
+    <h2>Knowledge Base</h2>
+    <span class="big">${stats.project_name}</span>
+  </a>
+  <a class="card" style="color: inherit;">
+    <h2>Creation Date</h2>
+    <span class="big">${stats.creation_date}</span>
+  </a>
+  <a class="card" style="color: inherit;pointer-events: none;">
+    <h2>Entities</h2>
+    <span class="big">${stats.unique_entities}</span>
+  </a>
+  <a class="card"  style="color: inherit;pointer-events: none;">
+    <h2>minsupp</h2>
+    <span class="big">${stats.minsupp*100}%</span>
+  </a>
+  <a class="card"  style="color: inherit;pointer-events: none;">
+    <h2>Concepts</h2>
+    <span class="big">${stats.num_concepts}</span>
+  </a>
+  <a class="card"  style="color: inherit;pointer-events: none;">
+    <h2>Frequent Concepts</h2>
+    <span class="big">${stats.num_frequent_concepts}</span>
+  </a>
+</div>`
+))
+}});
+
+define({id: "35aed7bf", inputs: ["gexfText","stats"], outputs: ["parse","gexfData","frequent_concepts","cluster_descriptions","computeDepth","sortArrayBySubstring","getTitleFromLabel","computeLevel","generate_cluster_stats","prepare_data","latticeData"], body: async (gexfText,stats) => {
+const {parse} = await import("./_npm/gexf@0.2.6/_esm.js");
+//Prepare Lattice Data
+const gexfData = parse(gexfText);
+const frequent_concepts = new Map(Object.entries(stats.frequent_concepts));
+const cluster_descriptions = new Map();
+function computeDepth(node, level = 0) {
+    node.level = level;
+    node.children.forEach(child => {
+        computeDepth(child, level + 1);
+    });
+}
+function sortArrayBySubstring(arr){
+    return arr.sort((a, b) => {
+        const aStartsWith = a.startsWith("class:");
+        const bStartsWith = b.startsWith("class:");
+
+        if (aStartsWith && !bStartsWith) {
+            return -1; // a should come before b
+        } else if (!aStartsWith && bStartsWith) {
+            return 1; // b should come before a
+        } else {
+            return 0; // leave them in the original order if both or neither match
+        }
+    });
+}
+function getTitleFromLabel(property_array, frequent_concepts){
+    const label =  new Set(JSON.parse(property_array));
+    let concept_stats = "";
+    for (const [key, value] of frequent_concepts) {
+        const concept = new Set(JSON.parse(key.replace(/'/g, '"').replace(/\{/g,
+            '[').replace(/\}/g, ']')));
+        if(concept.size === label.size && concept.isSubsetOf(label)){
+            concept_stats = value;
+        }
+    }
+    return concept_stats;
+}
+function computeLevel(node, ls) {
+    var level = null;
+    if(node.label === "set()" ){
+		level = 0;
+    } else if (node.label.startsWith("Cluster")){
+		level = 1;
+    } else {
+		level = new Set(JSON.parse(node.label)).size;
+    }
+	if(ls.has(level)){
+		node.level = ls.get(level);
+	}else{
+		ls.set(level, ls.size);
+		node.level = ls.get(level);
+	}
+	console.log(ls)
+    node.children.forEach(child => {
+        computeLevel(child, ls);
+    });
+}
+
+function generate_cluster_stats(cluster_node){
+	//collect all properties from direct children
+	var propertySet = new Set();
+	var classesSet = new Set();
+	cluster_node.children.forEach(child => {
+		var label = child.label.replace(/'/g, '"').replace(/\{/g,'[').replace(/\}/g, ']');
+		var childLabel = JSON.parse(label);
+		//read properties
+		childLabel.forEach(property => {
+			propertySet.add(property);
+		});
+		//Get Description Label of children
+		var classes = getTitleFromLabel(label, frequent_concepts).label.split(" ");
+		classes.forEach(c => {
+			classesSet.add(c);
+		});
+	});
+	var classesLabel = Array.from(classesSet).join(' ');
+	var obj = {label : classesLabel, properties: propertySet };
+	cluster_descriptions.set(cluster_node.label, obj);
+	return classesLabel;
+}
+
+function prepare_data(data) {
+    // Define root node (modify this to identify your root node)
+    const rootNode = data.nodes.find(node => node.label === "set()");
+    // Preprocess data to add parent references
+    data.nodes.forEach(node => {
+        node.children = [];
+    });
+    const clusterMap = new Map();
+    //Get all edges not starting from Root
+    const tmp_edges = data.edges.filter(edge => edge.source !== "1");
+    const edges_to_add = [];
+    data.edges.forEach((edge, index) => {
+        const source = data.nodes.find(node => node.id === edge.source);
+        const target = data.nodes.find(node => node.id === edge.target);
+        if(source.label === "set()" &&
+			!source.label.startsWith("Cluster") &&
+			!target.label.startsWith("Cluster")){
+				const edge_id = parseInt(edge.id);
+				var shift = 0;
+				//Check if cluster node already exists or needs to be created
+				const cluster_id = target.attributes[2];
+				var cluster_node = null;
+				if(clusterMap.has(cluster_id)){
+					cluster_node = clusterMap.get(cluster_id);
+				}else{
+					let new_node_id = data.nodes.length + 1;
+					cluster_node = { id : new_node_id.toString(), label: "Cluster ".concat(" ",
+						cluster_id ), children: [], attributes: [0,
+							"Cluster".concat(" ", cluster_id), cluster_id, cluster_id] };
+					clusterMap.set(cluster_id, cluster_node);
+					data.nodes.push(cluster_node);
+				
+					//Edge from Bottom Concept to Cluster Node
+					var to_cluster_edge = {id: (edge_id).toString(), type: "directed", label:"",
+						source:"1", target: cluster_node.id, weight: 1};
+					edges_to_add.push(to_cluster_edge);
+				}
+				//Add Edge from Cluster Node to target
+
+				var from_cluster_edge = {id: (edge_id).toString(), type: "directed",
+					label: "", source: cluster_node.id, target: target.id, weight:
+						1};
+				edges_to_add.push(from_cluster_edge);
+			}
+    });
+    data.edges = tmp_edges.concat(edges_to_add);
+    data.edges.forEach((edge, index) => {
+        edge.id = index.toString();
+    });
+    data.edges.forEach(edge => {
+        const source = data.nodes.find(node => node.id === edge.source);
+        const target = data.nodes.find(node => node.id === edge.target);
+        source.children.push(target);
+        target.parent = source;
+        edge.source = source;
+        edge.target = target;
+    })
+	//Generate Cluster Information
+	
+	clusterMap.forEach((value, key, map) => {
+		var newLabel = generate_cluster_stats(value);
+		const node = data.nodes.find(node => node.id === value.id)
+		let tmp = cluster_descriptions.get(node.label);
+		node.label = node.label + ": " + newLabel;
+		node.properties = Array.from(tmp.properties).map(item => `"${item}"`).toString();
+		node.properties = "[" + node.properties + "]";
+	});
+    //Hide all Nodes not rootNode or level 1
+    data.nodes.forEach(node => {
+        if(node.label === "set()" || node.parent === rootNode){
+            node.hidden = false;
+        }else{
+            node.hidden = true;
+        }
+        node.active = false;
+        node.label = node.label.replace(/'/g, '"')
+            .replace(/\{/g, '[')
+            .replace(/\}/g, ']');
+    })
+	const levels = new Map();
+    //computeLevel(rootNode, levels);
+	computeDepth(rootNode);
+    return data;
+}
+const latticeData = prepare_data(gexfData);
+return {parse,gexfData,frequent_concepts,cluster_descriptions,computeDepth,sortArrayBySubstring,getTitleFromLabel,computeLevel,generate_cluster_stats,prepare_data,latticeData};
+}});
+
+define({id: "70d79ec1", inputs: ["html","display"], body: async (html,display) => {
+display(await(
+html.fragment`<div class="grid grid-cols-2">
+  <div class="card" id="lattice" style="height: 60vh; overflow: hidden">
+    <h1>Concept Lattice</h1>
+  </div>
+  <div class="grid-rowspan-1" style="height: 60vh;">
+	<div class="card" id="concept" style="margin: 0; max-height: 50%;">
+      <h1 id="concept-label">Concept Inspector</h1>
+      <div id="description">
+		<!-- <h2>Select a Concept to start exploring!</h2> -->
+		<div id="table-container" style="height: 200px; overflow-y: scroll;">
+		</div>
+      </div>
+	</div>
+	<div id="supersets" class="card grid-rowspan-1" style="max-height: 40%; min-height: 40%; overflow: auto;">
+	  <h1>Related Additional Properties</h1>
+	  <div id="additional-props"/>
+	</div>
+  </div>
+</div>`
+))
+}});
+
+define({id: "de7e35a5", inputs: ["d3","getTitleFromLabel","frequent_concepts","latticeData","sortArrayBySubstring","Inputs","descriptions"], outputs: ["select","transition","easeBounceOut","zoom","DOM","parent","width","height","svg","myZoom","colorScale","container","tooltip","mouseover","mousemove","mouseleave","visibleNodes","visibleEdges","activeCircle","zoomed","update_data","click","update_visualization","collapse","getNodeById","getXPosition","getVisibleNodes","getVisibleEdges","createConceptDescription","createCheckboxes"], body: async (d3,getTitleFromLabel,frequent_concepts,latticeData,sortArrayBySubstring,Inputs,descriptions) => {
+const [{select, transition, easeBounceOut, zoom}, {DOM}] = await Promise.all([import("./_node/d3@7.9.0/index.js"), import("./_observablehq/stdlib.js")]);
+//display(latticeData);
+//Prepare svg element
+
+const parent = d3.select("#lattice")
+const width = parent.node().clientWidth;
+const height = parent.node().clientHeight - 100;
+const svg = parent.append("svg")
+    .attr("width", width)
+    .attr("height", height);
+const myZoom = d3.zoom()
+    .scaleExtent([0.5, 5])
+    .on("zoom", zoomed);
+const colorScale = d3.scaleOrdinal(d3.schemeObservable10);
+const container = svg.append("g");
+const tooltip = parent
+    .append("div")
+    .style("opacity", 0)
+    .attr("class", "tooltip")
+    .style("background-color", "white")
+    .style("color", "black")
+    .style("border", "solid")
+    .style("border-width", "2px")
+    .style("border-radius", "5px")
+    .style("padding", "5px")
+    .style("position", "absolute");
+
+
+var mouseover = function(d) {
+    tooltip.style("opacity", 1);
+    d3.select(this)
+        .style("stroke", "black")
+        .style("opacity", 1);
+}
+
+
+var mousemove = function(event, d){
+    var value = null;
+    if(d.label === "set()"){
+        value = "Bottom Concept";
+    }else if (d.label.startsWith("Cluster")){
+        value =  d.label;
+    }else{
+        let label = d.label
+            .replace(/'/g, '"')
+            .replace(/\{/g, '[')
+            .replace(/\}/g, ']');
+        let title = getTitleFromLabel(label, frequent_concepts);
+        value = title.label;
+    }
+    tooltip.html(value)
+        .style("left", (event.pageX - 320) + "px")
+        .style("top", (event.pageY - 100) + "px");
+}
+
+
+var mouseleave = function(d) {
+    tooltip
+      .style("opacity", 0)
+    d3.select(this)
+      .style("stroke", "none")
+      .style("opacity", 0.8)
+}
+
+
+svg.call(myZoom);
+//Handle Data
+var visibleNodes = getVisibleNodes(latticeData.nodes);
+var visibleEdges = getVisibleEdges(latticeData.nodes, latticeData.edges);
+var activeCircle = null;
+//Draw Visualization
+update_visualization();
+
+function zoomed(event) {
+    container.attr("transform", event.transform);
+}
+        
+        
+function update_data(d){
+    //set node active or inactive and redraw
+    if(d.active === false || d.active === null){
+        if(activeCircle){
+            activeCircle.active = false
+            if(!d.parent == activeCircle){
+            collapse(activeCircle);
+            }
+        }
+        d.active = true;
+        activeCircle = d;
+        //show children
+        d.children.forEach(child => child.hidden = false);
+    }else{
+        d.active = false;
+        //collapse recursively
+        collapse(d);
+    }
+    visibleNodes = getVisibleNodes(latticeData.nodes);
+    visibleEdges = getVisibleEdges(latticeData.nodes, latticeData.edges);
+}
+
+function click(d){
+    update_data(d);
+    update_visualization();
+    //Generate Description and Additional Properties
+    const property_array = d.label
+    if(property_array === "set()") {
+        d3.select("#concept-label").text("Bottom Concept");
+        const container = d3.select("#additional-props").text("");
+        container.html("");
+    } else if(property_array.startsWith("Cluster")) {
+		let props = sortArrayBySubstring(JSON.parse(d.properties));
+		createConceptDescription(props, d.label, d.attributes[0]);
+        //Get List of labels of children
+        const container = d3.select("#additional-props").text("");
+        container.html("");
+    } else {
+		let props = sortArrayBySubstring(JSON.parse(property_array));
+        let concept_stats = getTitleFromLabel(property_array, frequent_concepts);
+        createConceptDescription(props, concept_stats.label, d.attributes[0]);
+        const additional_props = Inputs.table(concept_stats.additional_props, {
+            columns: [0, 1], header: { 0: "property", 1: "occurences"}});
+        const container = d3.select("#additional-props").text("");
+        container.append(function() { return additional_props; });
+    }
+
+}
+function update_visualization(){
+    const bounce = transition().duration(2000).ease(easeBounceOut);
+    //draw Nodes
+    var circles = container
+        .selectAll("circle")
+        .data(visibleNodes, (d) => d.id)
+        .join(
+            enter => enter.append("circle")
+                .attr("id", function(d) { return d.id; })
+                .attr("fill", (d) => colorScale(d.attributes[2]))
+                .attr("cx", (d) => {
+                    d.x = getXPosition(d, visibleNodes, width);
+                    return d.x;
+                })
+                .attr("cy", (d) => {
+                    d.y = height - (d.level * 80); //(levels.indexOf(d.level) * 80));
+                    return d.y;
+                })
+                .style("z-index", 2)
+                .attr("r", 0)
+                .on("click", function(event, d){
+                    click(d);
+                })
+                .on("mouseover", function(event, d){ mouseover(d); })
+                .on("mousemove", function(event, d){ mousemove(event, d); })
+                .on("mouseleave", function(event, d){ mouseleave(d); })
+                .call((selection) => {
+                    selection
+                        .transition(bounce)
+                        .attr("r", (d) => 15)
+                }),
+            update => update
+                .transition(bounce)
+                .attr("stroke-width", (d) => { 
+                    if(d.active){ 
+                        return "5px"; 
+                    }else{
+                        return "0px";
+                    }
+                })
+                .attr("stroke", (d) => {
+                    if(d.active){ return "#24292e"; }
+                })
+                                .attr("cx", (d) => {
+                    d.x = getXPosition(d, visibleNodes, width);
+                    return d.x;
+                })
+                .attr("cy", (d) => {
+                    d.y = height - (d.level * 80); //(levels.indexOf(d.level) * 80));
+                    return d.y;
+                }),
+            exit => exit.transition(bounce).attr("r", 0).remove()
+        );
+    //drawEdges
+    container
+        .selectAll("line")
+        .data(visibleEdges, (d) => d.id)
+        .join(
+            enter => enter
+                .append("line")
+                .attr("stroke", "#24292e")
+                .attr("stroke-width", "2px")
+                .attr("x1", d => d.source.x)
+                .attr("y1", d => d.source.y)
+                .attr("x2", d => d.target.x)
+                .attr("y2", d => d.target.y),
+            update => update
+                .attr("x1", d => d.source.x)
+                .attr("y1", d => d.source.y)
+                .attr("x2", d => d.target.x)
+                .attr("y2", d => d.target.y),
+            exit => exit.remove()
+        );
+    circles.raise();
+}
+
+
+function collapse(d) {
+    if (d.children) {
+        d.children.forEach((child) => {
+            child.hidden = true;
+            collapse(child);
+        });
+    }
+}
+
+function getNodeById(id, nodes){
+    return nodes.filter(n => id === n.id);
+}
+
+function getXPosition(node, nodes, maxWidth){
+    const sameDepthNodes = nodes.filter(n => n.level === node.level);
+    return maxWidth / (sameDepthNodes.length + 1) *
+        (sameDepthNodes.indexOf(node) + 1);
+}
+
+function getVisibleNodes(nodes) {
+    return nodes.filter(d => !d.hidden);
+}
+
+function getVisibleEdges(nodes, edges) {
+    return edges.filter(function (d) {
+        return !d.source.hidden && !d.target.hidden;
+    });
+}
+
+Set.prototype.isSubsetOf = function(otherSet) {
+    for (let item of this) {
+        if (!otherSet.has(item)) {
+            return false;
+        }
+    }
+    return true;
+};
+
+//Descriptions of Concepts including Classes and Properties
+function createConceptDescription(props, title, extent_size) {
+    const tableContainer = d3.select("#table-container");
+    tableContainer.html(""); // Clear any existing table
+    //Get Header
+	var label = d3.select("#concept-label");
+	if(extent_size != 0){
+		title = title.concat(" (Extent Size: ", extent_size,")");
+	}
+	label.text(title);
+	//create table
+    const table = tableContainer.append("table").attr("class", "node-data-table");
+    const thead = table.append("thead");
+    const tbody = table.append("tbody");
+
+    // Assuming nodeData is an object with key-value pairs
+    // Append header
+    thead.append("tr")
+        .selectAll("th")
+        .data(["Class/Property", "Description"])
+        .enter()
+        .append("th")
+        .text(d => d);
+
+    // Append rows
+    props.forEach(item => {
+        const row = tbody.append("tr");
+        if(item.startsWith("class:")){
+            item = item.replace(/class\:/g, "");
+            row.append("td").text(item).classed("prop-class", true);
+        } else {
+            row.append("td").text(item);
+        }
+    
+    
+        if(descriptions.hasOwnProperty(item)){
+            row.append("td").text(descriptions[item].description);
+        } else {
+            row.append("td").text("");
+        }
+    
+    });
+  
+}
+
+//Tables for additional Concepts
+function createCheckboxes(data) {
+    const container = d3.select("#additional-props");
+    container.innerHTML = ""; // Clear any existing content
+
+    data.forEach(item => {
+        // Create a div for each checkbox and label
+        const checkboxDiv = document.createElement("div");
+        checkboxDiv.className = "checkbox-item";
+
+        // Create the checkbox input element
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.id = `checkbox`;
+        checkbox.value = item.value;
+
+        // Create the label for the checkbox
+        const label = document.createElement("label");
+        label.htmlFor = `checkbox`;
+        label.textContent = item.name;
+
+        // Append the checkbox and label to the div
+        checkboxDiv.appendChild(checkbox);
+        checkboxDiv.appendChild(label);
+
+        // Append the div to the container
+        container.append(checkboxDiv);
+    });
+}
+return {select,transition,easeBounceOut,zoom,DOM,parent,width,height,svg,myZoom,colorScale,container,tooltip,mouseover,mousemove,mouseleave,visibleNodes,visibleEdges,activeCircle,zoomed,update_data,click,update_visualization,collapse,getNodeById,getXPosition,getVisibleNodes,getVisibleEdges,createConceptDescription,createCheckboxes};
+}});
+
+</script>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link"><a href="./">Knowledge Base Explorer</a></li>
+  </ol>
+  <ol>
+    <li class="observablehq-link"><a href="./dblp">dblp</a></li>
+    <li class="observablehq-link"><a href="./imdb">imdb</a></li>
+    <li class="observablehq-link"><a href="./sample">sample</a></li>
+    <li class="observablehq-link observablehq-link-active"><a href="./wikidata">wikidata</a></li>
+  </ol>
+</nav>
+<script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),t=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?t.checked=r==="true":t.indeterminate=!0;for(const o of document.querySelectorAll("#observablehq-sidebar summary")){const s=o.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${o.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<div id="observablehq-center">
+<main id="observablehq-main" class="observablehq">
+<h1 id="wikidata" tabindex="-1"><a class="observablehq-header-anchor" href="#wikidata">wikidata</a></h1>
+<div id="cell-e8d17b6e" class="observablehq observablehq--block"><span class="observablehq-loading"></span></div>
+<div id="cell-c1c8e26a" class="observablehq observablehq--block"></div>
+<div id="cell-f7f87d7e" class="observablehq observablehq--block"><span class="observablehq-loading"></span></div>
+<div id="cell-35aed7bf" class="observablehq observablehq--block"></div>
+<div id="cell-70d79ec1" class="observablehq observablehq--block"><span class="observablehq-loading"></span></div>
+<div id="cell-de7e35a5" class="observablehq observablehq--block"></div>
+</main>
+</div>

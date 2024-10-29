@@ -1,0 +1,1649 @@
+{
+    "project_name": "latest-truthy",
+    "creation_date": "2024-06-10",
+    "minsupp": "0.0001",
+    "unique_entities": 23086687,
+    "num_concepts": 57,
+    "num_frequent_concepts": 57,
+    "frequent_concepts": {
+        "['type', 'P1476', 'P1433', 'P31', 'P356', 'http://www.wikidata.org/prop/direct-normalized/P356', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P407', 'P50', 'P478', 'P433', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P921",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P31', 'P6259', 'P1215', 'P7015', 'P59', 'P3083', 'P2214', 'P10752', 'P10751', 'P6257', 'P6258', 'P2216', 'P2583', 'P6879', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P528']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['http://www.w3.org/2002/07/owl#sameAs']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P1476', 'P1433', 'P953', 'P31', 'P356', 'http://www.wikidata.org/prop/direct-normalized/P356', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P2860', 'P407', 'P478', 'P433', 'P921', 'P577']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P31', 'P6259', 'P1215', 'P59', 'P3083', 'P6257', 'P6258', 'P1090', 'P2216', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P528']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P356', 'http://www.wikidata.org/prop/direct-normalized/P356', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P2860', 'P407', 'P478', 'P433', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P921",
+                    3
+                ],
+                [
+                    "P953",
+                    1
+                ],
+                [
+                    "P5875",
+                    1
+                ],
+                [
+                    "P932",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P31', 'P625', 'P2326', 'P1566', 'http://www.wikidata.org/prop/direct-normalized/P1566', 'P17', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P131']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P2044",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P356', 'http://www.wikidata.org/prop/direct-normalized/P356', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P2860', 'P478', 'P433', 'P921', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P407",
+                    3
+                ],
+                [
+                    "P953",
+                    1
+                ],
+                [
+                    "P5875",
+                    1
+                ],
+                [
+                    "P50",
+                    1
+                ],
+                [
+                    "P932",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P356', 'http://www.wikidata.org/prop/direct-normalized/P356', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P50', 'P478', 'P433', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P921",
+                    3
+                ],
+                [
+                    "P407",
+                    2
+                ],
+                [
+                    "P2860",
+                    2
+                ]
+            ]
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P356', 'http://www.wikidata.org/prop/direct-normalized/P356', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P433', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P921",
+                    9
+                ],
+                [
+                    "P407",
+                    8
+                ],
+                [
+                    "P2860",
+                    8
+                ],
+                [
+                    "P50",
+                    6
+                ],
+                [
+                    "P953",
+                    1
+                ],
+                [
+                    "P5875",
+                    1
+                ],
+                [
+                    "P932",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P407', 'P478', 'P433', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P356",
+                    8
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P356",
+                    8
+                ],
+                [
+                    "P921",
+                    6
+                ],
+                [
+                    "P2860",
+                    4
+                ],
+                [
+                    "P50",
+                    2
+                ],
+                [
+                    "P953",
+                    1
+                ],
+                [
+                    "P5875",
+                    1
+                ],
+                [
+                    "P932",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P433', 'P921', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P356",
+                    9
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P356",
+                    9
+                ],
+                [
+                    "P407",
+                    6
+                ],
+                [
+                    "P2860",
+                    5
+                ],
+                [
+                    "P50",
+                    3
+                ],
+                [
+                    "P953",
+                    1
+                ],
+                [
+                    "P5875",
+                    1
+                ],
+                [
+                    "P932",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P1433', 'P31', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P407', 'P478', 'P433', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P1476",
+                    10
+                ],
+                [
+                    "P356",
+                    8
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P356",
+                    8
+                ],
+                [
+                    "P921",
+                    7
+                ],
+                [
+                    "P2860",
+                    4
+                ],
+                [
+                    "P50",
+                    2
+                ],
+                [
+                    "P953",
+                    1
+                ],
+                [
+                    "P5875",
+                    1
+                ],
+                [
+                    "P932",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P433",
+                    20
+                ],
+                [
+                    "P356",
+                    17
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P356",
+                    17
+                ],
+                [
+                    "P921",
+                    11
+                ],
+                [
+                    "P407",
+                    10
+                ],
+                [
+                    "P2860",
+                    8
+                ],
+                [
+                    "P50",
+                    6
+                ],
+                [
+                    "P953",
+                    1
+                ],
+                [
+                    "P5875",
+                    1
+                ],
+                [
+                    "P932",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P2671', 'http://www.wikidata.org/prop/direct-normalized/P2671', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P356', 'http://www.wikidata.org/prop/direct-normalized/P356', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P50', 'P478', 'P433', 'P921', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P2860",
+                    1
+                ],
+                [
+                    "P407",
+                    1
+                ]
+            ]
+        },
+        "['type', 'http://schema.org/dateModified', 'http://schema.org/about', 'http://schema.org/version']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P31', 'P971', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P4224",
+                    1
+                ],
+                [
+                    "P373",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P31', 'P6259', 'P1215', 'P59', 'P3083', 'P2214', 'P10752', 'P10751', 'P6257', 'P6258', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P528']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P2583",
+                    4
+                ],
+                [
+                    "P2216",
+                    3
+                ],
+                [
+                    "P7015",
+                    1
+                ],
+                [
+                    "P6879",
+                    1
+                ],
+                [
+                    "P215",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P31', 'P971', 'P4224', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P279', 'P703', 'P688', 'P1057', 'P644', 'P2548', 'P645', 'P3382']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P356', 'http://www.wikidata.org/prop/direct-normalized/P356', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P2860', 'P407', 'P478', 'P433', 'P921', 'P5875', 'P577', 'P932']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P356', 'http://www.wikidata.org/prop/direct-normalized/P356', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P2860', 'P50', 'P478', 'P433', 'P921', 'P577']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P356', 'http://www.wikidata.org/prop/direct-normalized/P356', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P2860', 'P407', 'P478', 'P433', 'P921', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P953",
+                    1
+                ],
+                [
+                    "P5875",
+                    1
+                ],
+                [
+                    "P932",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P356', 'http://www.wikidata.org/prop/direct-normalized/P356', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P407', 'P50', 'P478', 'P433', 'P921', 'P577']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P356', 'http://www.wikidata.org/prop/direct-normalized/P356', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P2860', 'P50', 'P478', 'P433', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P921",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P356', 'http://www.wikidata.org/prop/direct-normalized/P356', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P407', 'P478', 'P433', 'P921', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P2860",
+                    3
+                ],
+                [
+                    "P953",
+                    1
+                ],
+                [
+                    "P5875",
+                    1
+                ],
+                [
+                    "P932",
+                    1
+                ],
+                [
+                    "P50",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P356', 'http://www.wikidata.org/prop/direct-normalized/P356', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P433', 'P921', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P407",
+                    5
+                ],
+                [
+                    "P2860",
+                    5
+                ],
+                [
+                    "P50",
+                    3
+                ],
+                [
+                    "P953",
+                    1
+                ],
+                [
+                    "P5875",
+                    1
+                ],
+                [
+                    "P932",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P356', 'http://www.wikidata.org/prop/direct-normalized/P356', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P2860', 'P478', 'P433', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P921",
+                    5
+                ],
+                [
+                    "P407",
+                    4
+                ],
+                [
+                    "P50",
+                    2
+                ],
+                [
+                    "P953",
+                    1
+                ],
+                [
+                    "P5875",
+                    1
+                ],
+                [
+                    "P932",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P356', 'http://www.wikidata.org/prop/direct-normalized/P356', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P407', 'P478', 'P433', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P921",
+                    5
+                ],
+                [
+                    "P2860",
+                    4
+                ],
+                [
+                    "P50",
+                    2
+                ],
+                [
+                    "P953",
+                    1
+                ],
+                [
+                    "P5875",
+                    1
+                ],
+                [
+                    "P932",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P407', 'P478', 'P433', 'P921', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P356",
+                    5
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P356",
+                    5
+                ],
+                [
+                    "P2860",
+                    3
+                ],
+                [
+                    "P953",
+                    1
+                ],
+                [
+                    "P5875",
+                    1
+                ],
+                [
+                    "P932",
+                    1
+                ],
+                [
+                    "P50",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P31', 'P6259', 'P1215', 'P59', 'P215', 'P3083', 'P2214', 'P10752', 'P10751', 'P6257', 'P6258', 'P2216', 'P2583', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P528']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P1433', 'P31', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P407', 'P478', 'P433', 'P921', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P1476",
+                    6
+                ],
+                [
+                    "P356",
+                    5
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P356",
+                    5
+                ],
+                [
+                    "P2860",
+                    3
+                ],
+                [
+                    "P953",
+                    1
+                ],
+                [
+                    "P5875",
+                    1
+                ],
+                [
+                    "P932",
+                    1
+                ],
+                [
+                    "P50",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P31', 'P6259', 'P1215', 'P59', 'P3083', 'P2214', 'P10752', 'P10751', 'P6257', 'P6258', 'P2216', 'P2583', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P528']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P7015",
+                    1
+                ],
+                [
+                    "P6879",
+                    1
+                ],
+                [
+                    "P215",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P2067', 'P31', 'P231', 'P235', 'P3117', 'P8494', 'P662', 'http://www.wikidata.org/prop/direct-normalized/P662', 'P274', 'P11089', 'P233', 'P234', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P279']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P356', 'http://www.wikidata.org/prop/direct-normalized/P356', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P433",
+                    16
+                ],
+                [
+                    "P921",
+                    9
+                ],
+                [
+                    "P407",
+                    8
+                ],
+                [
+                    "P2860",
+                    8
+                ],
+                [
+                    "P50",
+                    6
+                ],
+                [
+                    "P953",
+                    1
+                ],
+                [
+                    "P5875",
+                    1
+                ],
+                [
+                    "P932",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P31', 'P6259', 'P1215', 'P59', 'P3083', 'P2214', 'P10752', 'P10751', 'P6257', 'P6258', 'P2583', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P528']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P2216",
+                    3
+                ],
+                [
+                    "P7015",
+                    1
+                ],
+                [
+                    "P6879",
+                    1
+                ],
+                [
+                    "P215",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P698', 'http://www.wikidata.org/prop/direct-normalized/P698', 'P478', 'P433', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P356",
+                    16
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P356",
+                    16
+                ],
+                [
+                    "P921",
+                    11
+                ],
+                [
+                    "P407",
+                    10
+                ],
+                [
+                    "P2860",
+                    8
+                ],
+                [
+                    "P50",
+                    6
+                ],
+                [
+                    "P953",
+                    1
+                ],
+                [
+                    "P5875",
+                    1
+                ],
+                [
+                    "P932",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'http://www.w3.org/2004/02/skos/core#altLabel', 'P279', 'P703', 'P351', 'http://www.wikidata.org/prop/direct-normalized/P351', 'P688', 'P644', 'P2548', 'P645', 'P2393']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P6769', 'P1476', 'P1433', 'P31', 'P356', 'http://www.wikidata.org/prop/direct-normalized/P356', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P407', 'P433', 'P577']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P1476', 'P1433', 'P31', 'P356', 'http://www.wikidata.org/prop/direct-normalized/P356', 'P304', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P478', 'P433', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P698",
+                    16
+                ],
+                [
+                    "P698",
+                    16
+                ],
+                [
+                    "P921",
+                    9
+                ],
+                [
+                    "P407",
+                    8
+                ],
+                [
+                    "P2860",
+                    8
+                ],
+                [
+                    "P50",
+                    6
+                ],
+                [
+                    "P953",
+                    1
+                ],
+                [
+                    "P5875",
+                    1
+                ],
+                [
+                    "P932",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P7959', 'P31', 'P625', 'P1435', 'P12485', 'P613', 'P17', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P1216', 'P131']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P31', 'P6259', 'P1215', 'P59', 'P3083', 'P6257', 'P6258', 'P2216', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P528']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P10752",
+                    3
+                ],
+                [
+                    "P10751",
+                    3
+                ],
+                [
+                    "P2583",
+                    3
+                ],
+                [
+                    "P2214",
+                    3
+                ],
+                [
+                    "P7015",
+                    1
+                ],
+                [
+                    "P1090",
+                    1
+                ],
+                [
+                    "P6879",
+                    1
+                ],
+                [
+                    "P215",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P6769', 'P1476', 'P1433', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P2093', 'P407', 'P433', 'P577']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P356",
+                    1
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P356",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P2044', 'P31', 'P625', 'P2326', 'P1566', 'http://www.wikidata.org/prop/direct-normalized/P1566', 'P17', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P131']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P31', 'P6259', 'P1215', 'P59', 'P3083', 'P6257', 'P6258', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P528']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P10752",
+                    5
+                ],
+                [
+                    "P10751",
+                    5
+                ],
+                [
+                    "P2214",
+                    5
+                ],
+                [
+                    "P2216",
+                    5
+                ],
+                [
+                    "P2583",
+                    4
+                ],
+                [
+                    "P7015",
+                    1
+                ],
+                [
+                    "P1090",
+                    1
+                ],
+                [
+                    "P6879",
+                    1
+                ],
+                [
+                    "P215",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P31', 'P625', 'P590', 'http://www.wikidata.org/prop/direct-normalized/P590', 'P1566', 'http://www.wikidata.org/prop/direct-normalized/P1566', 'P17', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P131']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P31', 'P6259', 'P59', 'P3083', 'P6257', 'P6258', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P528']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P1215",
+                    8
+                ],
+                [
+                    "P10752",
+                    5
+                ],
+                [
+                    "P10751",
+                    5
+                ],
+                [
+                    "P2214",
+                    5
+                ],
+                [
+                    "P2216",
+                    5
+                ],
+                [
+                    "P2583",
+                    4
+                ],
+                [
+                    "P7015",
+                    1
+                ],
+                [
+                    "P1090",
+                    1
+                ],
+                [
+                    "P6879",
+                    1
+                ],
+                [
+                    "P215",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P31', 'P625', 'P2326', 'P1566', 'http://www.wikidata.org/prop/direct-normalized/P1566', 'P17', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P131",
+                    2
+                ],
+                [
+                    "P2044",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P31', 'P625', 'P1566', 'http://www.wikidata.org/prop/direct-normalized/P1566', 'P17', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P131']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P2326",
+                    2
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P590",
+                    1
+                ],
+                [
+                    "P590",
+                    1
+                ],
+                [
+                    "P2044",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P31', 'P442', 'P17', 'P421', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P1448', 'P131']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P31', 'P496', 'http://www.wikidata.org/prop/direct-normalized/P496', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description', 'P106']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P373', 'P31', 'P301', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P373', 'P31', 'P971', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description']": {
+            "label": "",
+            "additional_props": []
+        },
+        "['type', 'P31', 'P301', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P373",
+                    1
+                ]
+            ]
+        },
+        "['type', 'P31', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name', 'http://schema.org/description']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "P1433",
+                    27
+                ],
+                [
+                    "P577",
+                    27
+                ],
+                [
+                    "P2093",
+                    27
+                ],
+                [
+                    "P1476",
+                    25
+                ],
+                [
+                    "P433",
+                    25
+                ],
+                [
+                    "P478",
+                    25
+                ],
+                [
+                    "P304",
+                    25
+                ],
+                [
+                    "P698",
+                    24
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P698",
+                    24
+                ],
+                [
+                    "P356",
+                    19
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P356",
+                    19
+                ],
+                [
+                    "P407",
+                    14
+                ],
+                [
+                    "P921",
+                    12
+                ],
+                [
+                    "P59",
+                    9
+                ],
+                [
+                    "P6257",
+                    9
+                ],
+                [
+                    "P528",
+                    9
+                ],
+                [
+                    "P6258",
+                    9
+                ],
+                [
+                    "P3083",
+                    9
+                ],
+                [
+                    "P6259",
+                    9
+                ],
+                [
+                    "P1215",
+                    8
+                ],
+                [
+                    "P2860",
+                    8
+                ],
+                [
+                    "P17",
+                    7
+                ],
+                [
+                    "P625",
+                    6
+                ],
+                [
+                    "P131",
+                    6
+                ],
+                [
+                    "P50",
+                    6
+                ],
+                [
+                    "P2216",
+                    5
+                ],
+                [
+                    "P1566",
+                    5
+                ],
+                [
+                    "P10751",
+                    5
+                ],
+                [
+                    "P2214",
+                    5
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P1566",
+                    5
+                ],
+                [
+                    "P10752",
+                    5
+                ],
+                [
+                    "P2583",
+                    4
+                ],
+                [
+                    "P279",
+                    3
+                ],
+                [
+                    "P2326",
+                    3
+                ],
+                [
+                    "P971",
+                    3
+                ],
+                [
+                    "P644",
+                    2
+                ],
+                [
+                    "P2548",
+                    2
+                ],
+                [
+                    "P645",
+                    2
+                ],
+                [
+                    "P301",
+                    2
+                ],
+                [
+                    "P703",
+                    2
+                ],
+                [
+                    "P373",
+                    2
+                ],
+                [
+                    "P6769",
+                    2
+                ],
+                [
+                    "P688",
+                    2
+                ],
+                [
+                    "P7959",
+                    1
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P590",
+                    1
+                ],
+                [
+                    "P590",
+                    1
+                ],
+                [
+                    "P12485",
+                    1
+                ],
+                [
+                    "P351",
+                    1
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P351",
+                    1
+                ],
+                [
+                    "P2044",
+                    1
+                ],
+                [
+                    "P106",
+                    1
+                ],
+                [
+                    "P613",
+                    1
+                ],
+                [
+                    "P1216",
+                    1
+                ],
+                [
+                    "P1435",
+                    1
+                ],
+                [
+                    "P421",
+                    1
+                ],
+                [
+                    "P1448",
+                    1
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P496",
+                    1
+                ],
+                [
+                    "http://www.w3.org/2004/02/skos/core#altLabel",
+                    1
+                ],
+                [
+                    "P496",
+                    1
+                ],
+                [
+                    "P2393",
+                    1
+                ],
+                [
+                    "P3382",
+                    1
+                ],
+                [
+                    "P2067",
+                    1
+                ],
+                [
+                    "P231",
+                    1
+                ],
+                [
+                    "P7015",
+                    1
+                ],
+                [
+                    "P953",
+                    1
+                ],
+                [
+                    "P1090",
+                    1
+                ],
+                [
+                    "P6879",
+                    1
+                ],
+                [
+                    "P4224",
+                    1
+                ],
+                [
+                    "P1057",
+                    1
+                ],
+                [
+                    "P5875",
+                    1
+                ],
+                [
+                    "P932",
+                    1
+                ],
+                [
+                    "P233",
+                    1
+                ],
+                [
+                    "P3117",
+                    1
+                ],
+                [
+                    "P215",
+                    1
+                ],
+                [
+                    "P234",
+                    1
+                ],
+                [
+                    "P8494",
+                    1
+                ],
+                [
+                    "P662",
+                    1
+                ],
+                [
+                    "P235",
+                    1
+                ],
+                [
+                    "P274",
+                    1
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P662",
+                    1
+                ],
+                [
+                    "P11089",
+                    1
+                ],
+                [
+                    "P442",
+                    1
+                ]
+            ]
+        },
+        "['type', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://www.w3.org/2004/02/skos/core#prefLabel', 'http://schema.org/name']": {
+            "label": "",
+            "additional_props": [
+                [
+                    "http://schema.org/description",
+                    53
+                ],
+                [
+                    "P31",
+                    53
+                ],
+                [
+                    "P2093",
+                    27
+                ],
+                [
+                    "P1433",
+                    27
+                ],
+                [
+                    "P577",
+                    27
+                ],
+                [
+                    "P1476",
+                    25
+                ],
+                [
+                    "P433",
+                    25
+                ],
+                [
+                    "P304",
+                    25
+                ],
+                [
+                    "P478",
+                    25
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P698",
+                    24
+                ],
+                [
+                    "P698",
+                    24
+                ],
+                [
+                    "P356",
+                    19
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P356",
+                    19
+                ],
+                [
+                    "P407",
+                    14
+                ],
+                [
+                    "P921",
+                    12
+                ],
+                [
+                    "P59",
+                    9
+                ],
+                [
+                    "P6257",
+                    9
+                ],
+                [
+                    "P528",
+                    9
+                ],
+                [
+                    "P6258",
+                    9
+                ],
+                [
+                    "P3083",
+                    9
+                ],
+                [
+                    "P6259",
+                    9
+                ],
+                [
+                    "P1215",
+                    8
+                ],
+                [
+                    "P2860",
+                    8
+                ],
+                [
+                    "P17",
+                    7
+                ],
+                [
+                    "P131",
+                    6
+                ],
+                [
+                    "P50",
+                    6
+                ],
+                [
+                    "P625",
+                    6
+                ],
+                [
+                    "P1566",
+                    5
+                ],
+                [
+                    "P2214",
+                    5
+                ],
+                [
+                    "P10751",
+                    5
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P1566",
+                    5
+                ],
+                [
+                    "P2216",
+                    5
+                ],
+                [
+                    "P10752",
+                    5
+                ],
+                [
+                    "P2583",
+                    4
+                ],
+                [
+                    "P2326",
+                    3
+                ],
+                [
+                    "P279",
+                    3
+                ],
+                [
+                    "P971",
+                    3
+                ],
+                [
+                    "P2548",
+                    2
+                ],
+                [
+                    "P645",
+                    2
+                ],
+                [
+                    "P688",
+                    2
+                ],
+                [
+                    "P644",
+                    2
+                ],
+                [
+                    "P373",
+                    2
+                ],
+                [
+                    "P301",
+                    2
+                ],
+                [
+                    "P703",
+                    2
+                ],
+                [
+                    "P6769",
+                    2
+                ],
+                [
+                    "P7959",
+                    1
+                ],
+                [
+                    "P590",
+                    1
+                ],
+                [
+                    "P351",
+                    1
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P590",
+                    1
+                ],
+                [
+                    "P12485",
+                    1
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P351",
+                    1
+                ],
+                [
+                    "P2393",
+                    1
+                ],
+                [
+                    "P2044",
+                    1
+                ],
+                [
+                    "P421",
+                    1
+                ],
+                [
+                    "P613",
+                    1
+                ],
+                [
+                    "P1216",
+                    1
+                ],
+                [
+                    "P1435",
+                    1
+                ],
+                [
+                    "P106",
+                    1
+                ],
+                [
+                    "P1448",
+                    1
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P496",
+                    1
+                ],
+                [
+                    "P2067",
+                    1
+                ],
+                [
+                    "P496",
+                    1
+                ],
+                [
+                    "http://www.w3.org/2004/02/skos/core#altLabel",
+                    1
+                ],
+                [
+                    "P2671",
+                    1
+                ],
+                [
+                    "P3117",
+                    1
+                ],
+                [
+                    "P11089",
+                    1
+                ],
+                [
+                    "P7015",
+                    1
+                ],
+                [
+                    "P953",
+                    1
+                ],
+                [
+                    "P1090",
+                    1
+                ],
+                [
+                    "P6879",
+                    1
+                ],
+                [
+                    "P4224",
+                    1
+                ],
+                [
+                    "P3382",
+                    1
+                ],
+                [
+                    "P1057",
+                    1
+                ],
+                [
+                    "P5875",
+                    1
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P2671",
+                    1
+                ],
+                [
+                    "P932",
+                    1
+                ],
+                [
+                    "P231",
+                    1
+                ],
+                [
+                    "P233",
+                    1
+                ],
+                [
+                    "P215",
+                    1
+                ],
+                [
+                    "P234",
+                    1
+                ],
+                [
+                    "P8494",
+                    1
+                ],
+                [
+                    "P662",
+                    1
+                ],
+                [
+                    "P235",
+                    1
+                ],
+                [
+                    "P274",
+                    1
+                ],
+                [
+                    "http://www.wikidata.org/prop/direct-normalized/P662",
+                    1
+                ],
+                [
+                    "P442",
+                    1
+                ]
+            ]
+        }
+    }
+}

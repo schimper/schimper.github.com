@@ -1,0 +1,414 @@
+{
+    "project_name": "dblp",
+    "creation_date": "2024-10-20",
+    "minsupp": "0.001",
+    "unique_entities": 54941411,
+    "num_concepts": 1250,
+    "num_frequent_concepts": 19,
+    "frequent_concepts": {
+        "['type', 'title', 'bibtexType', 'numberOfCreators', 'primaryDocumentPage', 'documentPage', 'listedOnTocPage', 'pagination', 'publishedIn', 'publishedInBook', 'class:Publication', 'yearOfPublication', 'authoredBy', 'createdBy', 'hasSignature', 'http://www.w3.org/2002/07/owl#sameAs', 'publishedAsPartOf', 'http://www.w3.org/2000/01/rdf-schema#label', 'publishedInStream', 'doi', 'class:Inproceedings', 'yearOfEvent', 'http://purl.org/spar/datacite/hasIdentifier']": {
+            "label": "Publication Inproceedings",
+            "additional_props": [
+                [
+                    "wikidata",
+                    4
+                ],
+                [
+                    "publishedInSeriesVolume",
+                    2
+                ],
+                [
+                    "publicationNote",
+                    2
+                ],
+                [
+                    "archivedWebpage",
+                    2
+                ]
+            ]
+        },
+        "['type', 'title', 'bibtexType', 'numberOfCreators', 'primaryDocumentPage', 'documentPage', 'listedOnTocPage', 'pagination', 'publishedIn', 'class:Publication', 'yearOfPublication', 'authoredBy', 'createdBy', 'hasSignature', 'http://www.w3.org/2002/07/owl#sameAs', 'wikidata', 'http://www.w3.org/2000/01/rdf-schema#label', 'publishedInStream', 'doi', 'http://purl.org/spar/datacite/hasIdentifier', 'class:Article', 'publishedInJournal', 'publishedInJournalVolume', 'publishedInJournalVolumeIssue']": {
+            "label": "Publication Article",
+            "additional_props": [
+                [
+                    "archivedWebpage",
+                    1
+                ],
+                [
+                    "publishedAsPartOf",
+                    1
+                ],
+                [
+                    "monthOfPublication",
+                    1
+                ],
+                [
+                    "publicationNote",
+                    1
+                ]
+            ]
+        },
+        "['type', 'title', 'bibtexType', 'numberOfCreators', 'primaryDocumentPage', 'documentPage', 'listedOnTocPage', 'pagination', 'publishedIn', 'class:Publication', 'yearOfPublication', 'authoredBy', 'createdBy', 'hasSignature', 'http://www.w3.org/2002/07/owl#sameAs', 'wikidata', 'http://www.w3.org/2000/01/rdf-schema#label', 'publishedInStream', 'doi', 'http://purl.org/spar/datacite/hasIdentifier', 'class:Article', 'publishedInJournal', 'publishedInJournalVolume']": {
+            "label": "Publication Article",
+            "additional_props": [
+                [
+                    "publishedInJournalVolumeIssue",
+                    5
+                ],
+                [
+                    "publicationNote",
+                    3
+                ],
+                [
+                    "publishedAsPartOf",
+                    2
+                ],
+                [
+                    "archivedWebpage",
+                    2
+                ],
+                [
+                    "monthOfPublication",
+                    2
+                ]
+            ]
+        },
+        "['type', 'title', 'bibtexType', 'numberOfCreators', 'primaryDocumentPage', 'documentPage', 'listedOnTocPage', 'pagination', 'publishedIn', 'class:Publication', 'yearOfPublication', 'authoredBy', 'createdBy', 'hasSignature', 'http://www.w3.org/2002/07/owl#sameAs', 'http://www.w3.org/2000/01/rdf-schema#label', 'publishedInStream', 'monthOfPublication', 'doi', 'http://purl.org/spar/datacite/hasIdentifier', 'class:Article', 'publishedInJournal', 'publishedInJournalVolume', 'publishedInJournalVolumeIssue']": {
+            "label": "Publication Article",
+            "additional_props": [
+                [
+                    "wikidata",
+                    1
+                ]
+            ]
+        },
+        "['type', 'title', 'bibtexType', 'numberOfCreators', 'primaryDocumentPage', 'documentPage', 'listedOnTocPage', 'pagination', 'publishedIn', 'class:Publication', 'yearOfPublication', 'authoredBy', 'createdBy', 'hasSignature', 'http://www.w3.org/2002/07/owl#sameAs', 'http://www.w3.org/2000/01/rdf-schema#label', 'publishedInStream', 'doi', 'http://purl.org/spar/datacite/hasIdentifier', 'class:Article', 'publishedInJournal', 'publishedInJournalVolume']": {
+            "label": "Publication Article",
+            "additional_props": [
+                [
+                    "publishedInJournalVolumeIssue",
+                    10
+                ],
+                [
+                    "wikidata",
+                    10
+                ],
+                [
+                    "publicationNote",
+                    6
+                ],
+                [
+                    "publishedAsPartOf",
+                    4
+                ],
+                [
+                    "archivedWebpage",
+                    4
+                ],
+                [
+                    "monthOfPublication",
+                    4
+                ]
+            ]
+        },
+        "['type', 'title', 'bibtexType', 'numberOfCreators', 'primaryDocumentPage', 'documentPage', 'listedOnTocPage', 'publishedIn', 'class:Publication', 'yearOfPublication', 'authoredBy', 'createdBy', 'hasSignature', 'http://www.w3.org/2000/01/rdf-schema#label', 'class:Informal', 'publishedInStream', 'http://purl.org/spar/datacite/hasIdentifier', 'publishedInJournal', 'publishedInJournalVolume']": {
+            "label": "Publication Informal",
+            "additional_props": [
+                [
+                    "http://www.w3.org/2002/07/owl#sameAs",
+                    11
+                ],
+                [
+                    "doi",
+                    11
+                ],
+                [
+                    "pagination",
+                    11
+                ],
+                [
+                    "publishedInJournalVolumeIssue",
+                    6
+                ],
+                [
+                    "wikidata",
+                    6
+                ],
+                [
+                    "monthOfPublication",
+                    5
+                ],
+                [
+                    "publicationNote",
+                    2
+                ]
+            ]
+        },
+        "['type', 'http://purl.org/spar/literal/hasLiteralValue', 'class:http://purl.org/spar/datacite/Identifier', 'http://purl.org/spar/datacite/usesIdentifierScheme']": {
+            "label": "http://purl.org/spar/datacite/Identifier",
+            "additional_props": [
+                [
+                    "class:http://purl.org/spar/datacite/PersonalIdentifier",
+                    1
+                ],
+                [
+                    "class:http://purl.org/spar/datacite/ResourceIdentifier",
+                    1
+                ]
+            ]
+        },
+        "['type', 'title', 'bibtexType', 'numberOfCreators', 'primaryDocumentPage', 'documentPage', 'listedOnTocPage', 'pagination', 'publishedIn', 'publishedInBook', 'class:Publication', 'yearOfPublication', 'authoredBy', 'createdBy', 'hasSignature', 'publishedAsPartOf', 'http://www.w3.org/2000/01/rdf-schema#label', 'publishedInStream', 'class:Inproceedings', 'yearOfEvent', 'http://purl.org/spar/datacite/hasIdentifier']": {
+            "label": "Publication Inproceedings",
+            "additional_props": [
+                [
+                    "http://www.w3.org/2002/07/owl#sameAs",
+                    10
+                ],
+                [
+                    "doi",
+                    8
+                ],
+                [
+                    "wikidata",
+                    5
+                ],
+                [
+                    "publicationNote",
+                    3
+                ],
+                [
+                    "archivedWebpage",
+                    3
+                ],
+                [
+                    "publishedInSeriesVolume",
+                    2
+                ]
+            ]
+        },
+        "['type', 'title', 'bibtexType', 'numberOfCreators', 'primaryDocumentPage', 'documentPage', 'listedOnTocPage', 'pagination', 'publishedIn', 'class:Publication', 'yearOfPublication', 'authoredBy', 'createdBy', 'hasSignature', 'http://www.w3.org/2002/07/owl#sameAs', 'http://www.w3.org/2000/01/rdf-schema#label', 'publishedInStream', 'doi', 'http://purl.org/spar/datacite/hasIdentifier', 'class:Article', 'publishedInJournal', 'publishedInJournalVolume', 'publishedInJournalVolumeIssue']": {
+            "label": "Publication Article",
+            "additional_props": [
+                [
+                    "wikidata",
+                    5
+                ],
+                [
+                    "publicationNote",
+                    2
+                ],
+                [
+                    "archivedWebpage",
+                    2
+                ],
+                [
+                    "monthOfPublication",
+                    2
+                ],
+                [
+                    "publishedAsPartOf",
+                    2
+                ]
+            ]
+        },
+        "['type', 'title', 'bibtexType', 'numberOfCreators', 'primaryDocumentPage', 'documentPage', 'listedOnTocPage', 'publishedIn', 'publishedInBook', 'class:Publication', 'yearOfPublication', 'authoredBy', 'createdBy', 'hasSignature', 'publishedAsPartOf', 'http://www.w3.org/2000/01/rdf-schema#label', 'publishedInStream', 'class:Inproceedings', 'yearOfEvent', 'http://purl.org/spar/datacite/hasIdentifier']": {
+            "label": "Publication Inproceedings",
+            "additional_props": [
+                [
+                    "http://www.w3.org/2002/07/owl#sameAs",
+                    14
+                ],
+                [
+                    "pagination",
+                    13
+                ],
+                [
+                    "doi",
+                    11
+                ],
+                [
+                    "wikidata",
+                    6
+                ],
+                [
+                    "archivedWebpage",
+                    5
+                ],
+                [
+                    "publicationNote",
+                    4
+                ],
+                [
+                    "publishedInSeriesVolume",
+                    2
+                ]
+            ]
+        },
+        "['type', 'title', 'bibtexType', 'numberOfCreators', 'primaryDocumentPage', 'documentPage', 'listedOnTocPage', 'publishedIn', 'class:Publication', 'yearOfPublication', 'authoredBy', 'createdBy', 'hasSignature', 'http://www.w3.org/2002/07/owl#sameAs', 'http://www.w3.org/2000/01/rdf-schema#label', 'class:Informal', 'publishedInStream', 'doi', 'http://purl.org/spar/datacite/hasIdentifier', 'publishedInJournal', 'publishedInJournalVolume']": {
+            "label": "Publication Informal",
+            "additional_props": [
+                [
+                    "pagination",
+                    8
+                ],
+                [
+                    "wikidata",
+                    6
+                ],
+                [
+                    "monthOfPublication",
+                    5
+                ],
+                [
+                    "publishedInJournalVolumeIssue",
+                    4
+                ]
+            ]
+        },
+        "['type', 'class:Signature', 'signatureDblpName', 'signatureCreator', 'signatureOrdinal', 'signaturePublication', 'class:EditorSignature']": {
+            "label": "Signature EditorSignature",
+            "additional_props": [
+                [
+                    "signatureOrcid",
+                    1
+                ]
+            ]
+        },
+        "['type', 'title', 'bibtexType', 'numberOfCreators', 'listedOnTocPage', 'pagination', 'publishedIn', 'publishedInBook', 'class:Publication', 'yearOfPublication', 'authoredBy', 'createdBy', 'hasSignature', 'publishedAsPartOf', 'http://www.w3.org/2000/01/rdf-schema#label', 'publishedInStream', 'class:Inproceedings', 'yearOfEvent', 'http://purl.org/spar/datacite/hasIdentifier']": {
+            "label": "Publication Inproceedings",
+            "additional_props": [
+                [
+                    "documentPage",
+                    13
+                ],
+                [
+                    "primaryDocumentPage",
+                    13
+                ],
+                [
+                    "http://www.w3.org/2002/07/owl#sameAs",
+                    12
+                ],
+                [
+                    "doi",
+                    10
+                ],
+                [
+                    "archivedWebpage",
+                    6
+                ],
+                [
+                    "wikidata",
+                    6
+                ],
+                [
+                    "publicationNote",
+                    5
+                ],
+                [
+                    "publishedInSeriesVolume",
+                    2
+                ],
+                [
+                    "monthOfPublication",
+                    1
+                ]
+            ]
+        },
+        "['type', 'http://www.w3.org/2000/01/rdf-schema#label', 'http://purl.org/spar/datacite/hasIdentifier', 'class:Person', 'class:Creator', 'primaryCreatorName', 'creatorName']": {
+            "label": "Person Creator",
+            "additional_props": [
+                [
+                    "http://www.w3.org/2002/07/owl#sameAs",
+                    176
+                ],
+                [
+                    "affiliation",
+                    150
+                ],
+                [
+                    "primaryAffiliation",
+                    150
+                ],
+                [
+                    "webpage",
+                    129
+                ],
+                [
+                    "wikidata",
+                    126
+                ],
+                [
+                    "homepage",
+                    115
+                ],
+                [
+                    "primaryHomepage",
+                    115
+                ],
+                [
+                    "orcid",
+                    97
+                ],
+                [
+                    "wikipedia",
+                    91
+                ],
+                [
+                    "creatorNote",
+                    80
+                ],
+                [
+                    "archivedWebpage",
+                    50
+                ],
+                [
+                    "awardWebpage",
+                    50
+                ],
+                [
+                    "http://www.w3.org/2002/07/owl#differentFrom",
+                    27
+                ]
+            ]
+        },
+        "['type', 'http://purl.org/spar/literal/hasLiteralValue', 'class:http://purl.org/spar/datacite/PersonalIdentifier', 'class:http://purl.org/spar/datacite/Identifier', 'http://purl.org/spar/datacite/usesIdentifierScheme']": {
+            "label": "http://purl.org/spar/datacite/PersonalIdentifier http://purl.org/spar/datacite/Identifier",
+            "additional_props": []
+        },
+        "['type', 'title', 'bibtexType', 'numberOfCreators', 'primaryDocumentPage', 'documentPage', 'listedOnTocPage', 'pagination', 'publishedIn', 'publishedInBook', 'class:Publication', 'yearOfPublication', 'authoredBy', 'createdBy', 'hasSignature', 'http://www.w3.org/2002/07/owl#sameAs', 'wikidata', 'publishedAsPartOf', 'http://www.w3.org/2000/01/rdf-schema#label', 'publishedInStream', 'doi', 'class:Inproceedings', 'yearOfEvent', 'http://purl.org/spar/datacite/hasIdentifier']": {
+            "label": "Publication Inproceedings",
+            "additional_props": [
+                [
+                    "publicationNote",
+                    1
+                ],
+                [
+                    "archivedWebpage",
+                    1
+                ],
+                [
+                    "publishedInSeriesVolume",
+                    1
+                ]
+            ]
+        },
+        "['type', 'http://purl.org/spar/literal/hasLiteralValue', 'class:http://purl.org/spar/datacite/ResourceIdentifier', 'class:http://purl.org/spar/datacite/Identifier', 'http://purl.org/spar/datacite/usesIdentifierScheme']": {
+            "label": "http://purl.org/spar/datacite/ResourceIdentifier http://purl.org/spar/datacite/Identifier",
+            "additional_props": []
+        },
+        "['type', 'class:AuthorSignature', 'class:Signature', 'signatureDblpName', 'signatureCreator', 'signatureOrdinal', 'signaturePublication', 'signatureOrcid']": {
+            "label": "AuthorSignature Signature",
+            "additional_props": []
+        },
+        "['type', 'class:AuthorSignature', 'class:Signature', 'signatureDblpName', 'signatureCreator', 'signatureOrdinal', 'signaturePublication']": {
+            "label": "AuthorSignature Signature",
+            "additional_props": [
+                [
+                    "signatureOrcid",
+                    1
+                ]
+            ]
+        }
+    }
+}

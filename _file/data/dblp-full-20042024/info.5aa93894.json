@@ -1,0 +1,221 @@
+{
+    "project_name": "dblp-full-20042024",
+    "creation_date": "2024-06-16",
+    "minsupp": "0.005",
+    "unique_entities": 52447225,
+    "num_concepts": 927,
+    "num_frequent_concepts": 11,
+    "frequent_concepts": {
+        "['type', 'class:AuthorSignature', 'signatureDblpName', 'signatureCreator', 'signatureOrdinal', 'signaturePublication']": {
+            "label": "AuthorSignature",
+            "additional_props": [
+                [
+                    "signatureOrcid",
+                    1
+                ]
+            ]
+        },
+        "['type', 'class:AuthorSignature', 'signatureDblpName', 'signatureCreator', 'signatureOrdinal', 'signaturePublication', 'signatureOrcid']": {
+            "label": "AuthorSignature",
+            "additional_props": []
+        },
+        "['type', 'title', 'bibtexType', 'numberOfCreators', 'primaryDocumentPage', 'documentPage', 'listedOnTocPage', 'pagination', 'publishedIn', 'yearOfPublication', 'class:Publication', 'authoredBy', 'hasSignature', 'http://www.w3.org/2002/07/owl#sameAs', 'http://www.w3.org/2000/01/rdf-schema#label', 'doi', 'class:Article', 'publishedInJournal', 'publishedInJournalVolume', 'publishedInJournalVolumeIssue', 'http://purl.org/spar/datacite/hasIdentifier']": {
+            "label": "Publication Article",
+            "additional_props": [
+                [
+                    "wikidata",
+                    5
+                ],
+                [
+                    "monthOfPublication",
+                    2
+                ],
+                [
+                    "publicationNote",
+                    2
+                ],
+                [
+                    "publishedAsPartOf",
+                    2
+                ],
+                [
+                    "archivedWebpage",
+                    2
+                ]
+            ]
+        },
+        "['type', 'class:http://purl.org/spar/datacite/PersonalIdentifier', 'http://purl.org/spar/datacite/usesIdentifierScheme', 'http://purl.org/spar/literal/hasLiteralValue']": {
+            "label": "http://purl.org/spar/datacite/PersonalIdentifier",
+            "additional_props": []
+        },
+        "['type', 'title', 'bibtexType', 'numberOfCreators', 'primaryDocumentPage', 'documentPage', 'listedOnTocPage', 'publishedIn', 'yearOfPublication', 'class:Publication', 'authoredBy', 'hasSignature', 'http://www.w3.org/2000/01/rdf-schema#label', 'class:Informal', 'publishedInJournal', 'publishedInJournalVolume', 'http://purl.org/spar/datacite/hasIdentifier']": {
+            "label": "Publication Informal",
+            "additional_props": [
+                [
+                    "http://www.w3.org/2002/07/owl#sameAs",
+                    11
+                ],
+                [
+                    "pagination",
+                    11
+                ],
+                [
+                    "doi",
+                    11
+                ],
+                [
+                    "wikidata",
+                    6
+                ],
+                [
+                    "publishedInJournalVolumeIssue",
+                    6
+                ],
+                [
+                    "monthOfPublication",
+                    5
+                ],
+                [
+                    "publicationNote",
+                    2
+                ]
+            ]
+        },
+        "['type', 'title', 'bibtexType', 'numberOfCreators', 'primaryDocumentPage', 'documentPage', 'listedOnTocPage', 'pagination', 'publishedIn', 'yearOfPublication', 'class:Publication', 'authoredBy', 'hasSignature', 'http://www.w3.org/2002/07/owl#sameAs', 'http://www.w3.org/2000/01/rdf-schema#label', 'doi', 'class:Article', 'publishedInJournal', 'publishedInJournalVolume', 'http://purl.org/spar/datacite/hasIdentifier']": {
+            "label": "Publication Article",
+            "additional_props": [
+                [
+                    "wikidata",
+                    10
+                ],
+                [
+                    "publishedInJournalVolumeIssue",
+                    10
+                ],
+                [
+                    "publicationNote",
+                    6
+                ],
+                [
+                    "monthOfPublication",
+                    4
+                ],
+                [
+                    "publishedAsPartOf",
+                    4
+                ],
+                [
+                    "archivedWebpage",
+                    4
+                ]
+            ]
+        },
+        "['type', 'class:http://purl.org/spar/datacite/Identifier', 'http://purl.org/spar/datacite/usesIdentifierScheme', 'http://purl.org/spar/literal/hasLiteralValue']": {
+            "label": "http://purl.org/spar/datacite/Identifier",
+            "additional_props": []
+        },
+        "['type', 'title', 'bibtexType', 'numberOfCreators', 'primaryDocumentPage', 'documentPage', 'listedOnTocPage', 'pagination', 'publishedIn', 'yearOfPublication', 'class:Publication', 'authoredBy', 'hasSignature', 'wikidata', 'http://www.w3.org/2002/07/owl#sameAs', 'http://www.w3.org/2000/01/rdf-schema#label', 'doi', 'class:Article', 'publishedInJournal', 'publishedInJournalVolume', 'publishedInJournalVolumeIssue', 'http://purl.org/spar/datacite/hasIdentifier']": {
+            "label": "Publication Article",
+            "additional_props": [
+                [
+                    "monthOfPublication",
+                    1
+                ],
+                [
+                    "publicationNote",
+                    1
+                ],
+                [
+                    "archivedWebpage",
+                    1
+                ],
+                [
+                    "publishedAsPartOf",
+                    1
+                ]
+            ]
+        },
+        "['type', 'title', 'bibtexType', 'numberOfCreators', 'primaryDocumentPage', 'documentPage', 'listedOnTocPage', 'pagination', 'publishedIn', 'publishedInBook', 'yearOfPublication', 'class:Publication', 'authoredBy', 'hasSignature', 'http://www.w3.org/2002/07/owl#sameAs', 'publishedAsPartOf', 'http://www.w3.org/2000/01/rdf-schema#label', 'class:Inproceedings', 'yearOfEvent', 'doi', 'http://purl.org/spar/datacite/hasIdentifier']": {
+            "label": "Publication Inproceedings",
+            "additional_props": [
+                [
+                    "wikidata",
+                    4
+                ],
+                [
+                    "publishedInSeriesVolume",
+                    2
+                ],
+                [
+                    "publicationNote",
+                    2
+                ],
+                [
+                    "archivedWebpage",
+                    2
+                ]
+            ]
+        },
+        "['type', 'class:http://purl.org/spar/datacite/ResourceIdentifier', 'http://purl.org/spar/datacite/usesIdentifierScheme', 'http://purl.org/spar/literal/hasLiteralValue']": {
+            "label": "http://purl.org/spar/datacite/ResourceIdentifier",
+            "additional_props": []
+        },
+        "['type', 'http://www.w3.org/2000/01/rdf-schema#label', 'class:Person', 'class:Creator', 'primaryCreatorName', 'http://purl.org/spar/datacite/hasIdentifier', 'creatorName']": {
+            "label": "Person Creator",
+            "additional_props": [
+                [
+                    "http://www.w3.org/2002/07/owl#sameAs",
+                    173
+                ],
+                [
+                    "primaryAffiliation",
+                    149
+                ],
+                [
+                    "affiliation",
+                    149
+                ],
+                [
+                    "wikidata",
+                    127
+                ],
+                [
+                    "webpage",
+                    127
+                ],
+                [
+                    "homepage",
+                    117
+                ],
+                [
+                    "primaryHomepage",
+                    117
+                ],
+                [
+                    "orcid",
+                    93
+                ],
+                [
+                    "wikipedia",
+                    88
+                ],
+                [
+                    "creatorNote",
+                    79
+                ],
+                [
+                    "awardWebpage",
+                    50
+                ],
+                [
+                    "archivedWebpage",
+                    49
+                ],
+                [
+                    "http://www.w3.org/2002/07/owl#differentFrom",
+                    28
+                ]
+            ]
+        }
+    }
+}
